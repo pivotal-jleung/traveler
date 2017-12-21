@@ -1,7 +1,7 @@
 ---
 memory: 1G
 applications:
-  - name: company
+  - name: jleung1-company
     random-route: true
     services:
       - service-registry
