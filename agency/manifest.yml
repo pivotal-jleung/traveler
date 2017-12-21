@@ -2,7 +2,7 @@
 instances: 1
 memory: 1G
 applications:
-  - name: agency
+  - name: jleung1-agency
     random-route: true
     services:
       - service-registry
