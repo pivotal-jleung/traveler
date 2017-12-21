@@ -2,6 +2,7 @@
 memory: 1G
 applications:
   - name: jleung1-company
+    path: ./target/company-0.0.1-SNAPSHOT.jar
     random-route: true
     services:
       - service-registry
