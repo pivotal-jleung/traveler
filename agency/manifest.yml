@@ -4,6 +4,7 @@ memory: 1G
 applications:
   - name: jleung1-agency
     random-route: true
+    path: ./target/agency-0.0.1-SNAPSHOT.jar
     services:
       - service-registry
       - circuit-breaker-dashboard
